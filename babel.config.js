@@ -5,11 +5,12 @@ module.exports = {
             {
                 useBuiltIns: 'usage',
                 corejs: 3,
+                modules: false,
             }
         ]
     ],
     plugins: [
         "@babel/plugin-proposal-class-properties",
-        // "@babel/plugin-transform-runtime"
+        "@babel/plugin-transform-runtime"
     ]
 }
